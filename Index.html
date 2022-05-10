@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nhóm 2</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/all.css">
+
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css">
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="./css/Style.css">
+
+</head>
+
+<body>
+
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#" class="text-gray">Website</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="Index.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Danh sách</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="./profile-card/profile.html">Liên hệ với chúng tôi</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social text-gray">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+    <!----------------------------- Main Site Section ------------------------------>
+    <div class="background">
+        <main>
+            <audio autoplay loop preload="auto" id="audio"><source src="./music/music.mp3"></audio>
+            <script>
+                
+            </script>
+
+            <!------------------------ Site Title ---------------------->
+
+            <section class="site-title">
+                <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+                </div>
+            </section>
+        
+        <!------------x----------- Site Title ----------x----------->
+
+        <!-- --------------------- Blog Carousel ----------------- -->
+            <section>
+                <div class="blog">
+                    <div clas   s="container">
+                        <marquee id="marq" scrollamount="10" direction="left" loop="auto" scrolldelay="0" behavior="alternate" onmouseover="this.stop()" onmouseout="this.start()">
+                            <div class="owl-carousel owl-theme blog-post">
+                                <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                                    <img src="./assets/Blog-post/2048.png" alt="post-1">
+                                    <div class="blog-title">
+                                        <a href="./game/2048/index.html" target="_blank"><button class="btn btn-blog">Let's Play</button></a>
+                                    </div>
+                                </div>
+                                <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                                    <img src="./assets/Blog-post/hextris.png" alt="post-1">
+                                    <div class="blog-title">
+                                        <a href="./game/hextris/index.html" target="_blank"><button class="btn btn-blog">Chiến luôn</button></a>
+                                    </div>
+                                </div>
+                                <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                                    <img src="./assets/Blog-post/tower_building.png" alt="post-1">
+                                    <div class="blog-title">
+                                        <a href="./game/tower_game/index.html" target="_blank"><button class="btn btn-blog">Tới luôn</button></a>
+                                    </div>
+                                </div>
+                                <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                                    <img src="./assets/Blog-post/sweet-memory.png" alt="post-1">
+                                    <div class="blog-title">
+                                        <a href="./game/pen-export-WwzEEg/dist/index.html" target="_blank"><button class="btn btn-blog">Chơi nào</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="owl-navigation">
+                                <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+                                <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                            </div> -->
+                        </marquee>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ----------x---------- Blog Carousel --------x-------- -->
+
+            <!-- ---------------------- Site Content -------------------------->
+
+            <section class="container">
+                <div class="site-content">
+                    <div class="posts">
+                        <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/Blog-post/2048.png" class="img" alt="blog1">
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="./game/2048/index.html" target="_blank">2048</a>
+                                <p>2048 là một trò chơi giải đố do tác giả Gabriele Cirulli, một lập trình viên trẻ tuổi người Ý, tạo ra vào tháng 3 năm 2014. Mục tiêu của trò chơi là trượt các khối vuông có mang số trên một lưới vuông để kết hợp chúng lại và tạo ra khối vuông có giá trị 2048.
+                                    <br><br>Cách chơi: 2048 được chơi trên lưới vuông 4x4. Người chơi cần dùng các phím mũi tên để di chuyển toàn bộ các khối. Mỗi lần di chuyển là 1 lượt và mỗi lượt sẽ xuất hiện ngẫu nhiên 1 khối có giá trị 2 hoặc 4 vào một ô trống trên lưới. Các khối vuông khi trượt sẽ dừng lại khi chạm vào biên lưới hoặc khối vuông không cùng giá trị. Hai khối vuông cùng giá trị khi kết hợp sẽ thành một khối có giá trị bằng tổng giá trị 2 khối vuông đóKhối vuông kết quả không thể kết hợp với khối vuông khác một lần nữa trong một lượt di chuyển. Để dễ nhận biết thì các khối vuông giá trị khác nhau sẽ có màu sắc khác nhau.
+                                </p>
+                                <a href="./game/2048/index.html" target="_blank"><button class="btn post-btn">Let's play &nbsp; <i class="fas fa-arrow-right"></i></button></a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/Blog-post/hextris.png" class="img" alt="blog1">
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="./game/hextris/index.html" target="_blank">Hextris</a>
+                                <p>Hextris là câu đố nhịp độ nhanh, trò chơi trí óc để giải trí. Các khối bắt đầu ở các cạnh của màn hình và rơi về phía hình lục giác màu xanh lam
+                                    <br><br>Mục tiêu: Ngăn cho các khối xếp chồng ra bên ngoài khu vực hình lục giác màu xám. Tích lũy 3 khối cùng màu để dược điểm.
+                                    <br><br>Cách chơi: Để xoay sang bên trái ta nhấn nút Left hoặc nút a. Để xoay sang bên phải ta nhấn nút Right hoặc nút d.
+                                </p>
+                                <a href="./game/hextris/index.html" target="_blank"><button class="btn post-btn">Chiến luôn &nbsp; <i class="fas fa-arrow-right"></i></button></a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/Blog-post/tower_building.png" class="img" alt="hextris">
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="./game/tower_game/index.html" target="_blank">Tower Building</a>
+                                <p>Tower Building là một trò chơi dạng xếp hình, trò chơi này sẽ đem đến cho bạn cơ hội thử sức với vai trò của một kiến trúc sư. Như tên của trò chơi đã ghi, trò chơi không có gì khác ngoài việc xây tháp. Hãy cùng nhau xây dựng một tòa tháp chọc trời cao nhất trái đất nào! 
+                                    <br><br>Cách chơi: Tất cả những gì bạn cần làm là ấn chuột để thả các tầng tháp vào đúng vị trí để chúng không bị đổ. Người chơi sẽ có 3 mạng; mỗi tầng không đổ sẽ được +25 điểm, nếu xếp hoàn hảo sẽ được +50 điểm và nếu người chơi làm rơi hoặc đổ tầng sẽ bị mất 1 mạng. Nếu mất 3 mạng thì trò chơi sẽ kết thúc.
+                                </p>
+                                <a href="./game/tower_game/index.html" target="_blank"><button class="btn post-btn">Tới luôn &nbsp; <i class="fas fa-arrow-right"></i></button></a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/Blog-post/sweet-memory.png" class="img" alt="blog1">
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="./game/pen-export-WwzEEg/dist/index.html" target="_blank">Sweet Memory</a>
+                                <p>Sweet Memory là Trò chơi trí nhớ dành cho tất cả mọi người, sẽ giúp mọi người rèn luyện trí nhớ và khả năng cải thiện sự tập trung, thư giẫn và bình tĩnh.
+                                    <br><br>Cách chơi: Sử dụng chuột trái để chọn 2 ô trên lưới, nếu 2 ảnh giống nhau sẽ hiện lên, còn không giống nhau 2 ảnh sẽ úp xuống cho đến khi người chơi cho hiện hết ảnh lên.
+                                </p>
+                                <a href="./game/pen-export-WwzEEg/dist/index.html" target="_blank"><button class="btn post-btn">Chơi nào &nbsp; <i class="fas fa-arrow-right"></i></button></a>
+                            </div>
+                        </div>
+                        <div class="pagination flex-row">
+                            <a href="#"><i class="fas fa-chevron-left"></i></a>
+                            <a href="#" class="pages">1</a>
+                            <a href="#" class="pages">2</a>
+                            <a href="#" class="pages">3</a>
+                            <a href="#"><i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <aside class="sidebar">
+                        <!-- <div class="category">
+                            <h2>Category</h2>
+                            <ul class="category-list">
+                                <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                                    <a href="#">Software</a>
+                                    <span>(05)</span>
+                                </li>
+                                <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                    <a href="#">Techonlogy</a>
+                                    <span>(02)</span>
+                                </li>
+                                <li class="list-items" data-aos="fade-left" data-aos-delay="300">
+                                    <a href="#">Lifestyle</a>
+                                    <span>(07)</span>
+                                </li>
+                                <li class="list-items" data-aos="fade-left" data-aos-delay="400">
+                                    <a href="#">Shopping</a>
+                                    <span>(01)</span>
+                                </li>
+                                <li class="list-items" data-aos="fade-left" data-aos-delay="500">
+                                    <a href="#">Food</a>
+                                    <span>(08)</span>
+                                </li>
+                            </ul>
+                        </div> -->
+                        <!-- <div class="popular-post">
+                            <h2>Popular Post</h2>
+                            <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                                <div class="post-image">
+                                    <div>
+                                        <img src="./assets/popular-post/m-blog-1.jpg" class="img" alt="blog1">
+                                    </div>
+                                    
+                                </div>
+                                <div class="post-title">
+                                    <a href="#">New data recording system to better analyse road accidents</a>
+                                </div>
+                            </div>
+                            <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                                <div class="post-image">
+                                    <div>
+                                        <img src="./assets/popular-post/m-blog-2.jpg" class="img" alt="blog1">
+                                    </div>
+
+                                </div>
+                                <div class="post-title">
+                                    <a href="#">New data recording system to better analyse road accidents</a>
+                                </div>
+                            </div>
+                            <div class="post-content" data-aos="flip-up" data-aos-delay="400">
+                                <div class="post-image">
+                                    <div>
+                                        <img src="./assets/popular-post/m-blog-3.jpg" class="img" alt="blog1">
+                                    </div>
+                                   
+                                </div>
+                                <div class="post-title">
+                                    <a href="#">New data recording system to better analyse road accidents</a>
+                                </div>
+                            </div>
+                            <div class="post-content" data-aos="flip-up" data-aos-delay="500">
+                                <div class="post-image">
+                                    <div>
+                                        <img src="./assets/popular-post/m-blog-4.jpg" class="img" alt="blog1">
+                                    </div>
+                                    
+                                </div>
+                                <div class="post-title">
+                                    <a href="#">New data recording system to better analyse road accidents</a>
+                                </div>
+                            </div>
+                            <div class="post-content" data-aos="flip-up" data-aos-delay="600">
+                                <div class="post-image">
+                                    <div>
+                                        <img src="./assets/popular-post/m-blog-5.jpg" class="img" alt="blog1">
+                                    </div>
+                                    
+                                </div>
+                                <div class="post-title">
+                                    <a href="#">New data recording system to better analyse road accidents</a>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+                            <h2>Newsletter</h2>
+                            <div class="form-element">
+                                <input type="text" class="input-element" placeholder="Email">
+                                <button class="btn form-btn">Subscribe</button>
+                            </div>
+                        </div>
+                        <div class="popular-tags">
+                            <h2>Popular Tags</h2>
+                            <div class="tags flex-row">
+                                <span class="tag" data-aos="flip-up" data-aos-delay="100">Software</span>
+                                <span class="tag" data-aos="flip-up" data-aos-delay="200">technology</span>
+                                <span class="tag" data-aos="flip-up" data-aos-delay="300">travel</span>
+                                <span class="tag" data-aos="flip-up" data-aos-delay="400">illustration</span>
+                                <span class="tag" data-aos="flip-up" data-aos-delay="500">design</span>
+                                <span class="tag" data-aos="flip-up" data-aos-delay="600">lifestyle</span>
+                                <span class="tag" data-aos="flip-up" data-aos-delay="700">love</span>
+                                <span class="tag" data-aos="flip-up" data-aos-delay="800">project</span>
+                            </div>
+                        </div> -->
+                    </aside>
+                </div>
+            </section>
+            <section class="end-background">
+                <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+                </div>
+            </section>
+        
+
+        <!-- -----------x---------- Site Content -------------x------------>
+
+        </main>
+    </div>
+    <!---------------x------------- Main Site Section ---------------x-------------->
+
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2>Về chúng tôi:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia atque nemo ad modi officiis
+                    iure, autem nulla tenetur repellendus.</p>
+            </div>
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Newsletter</h2>
+                <p>Stay update with our latest</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <div class="picture" data-aos="fade-left" data-aos-delay="200">
+                <h2>Một số hình ảnh</h2>
+                <div class="flex-row">
+                    <img src="./assets/Blog-post/2048.png" alt="pic1" width="100" height="100">
+                    <img src="./assets/Blog-post/hextris.png" alt="pic2" width="100" height="100">
+                    <img src="./assets/Blog-post/sweet-memory.png" alt="pic3" width="100" height="100">
+                </div>
+                <div class="flex-row">
+                    <img src="./assets/Blog-post/tower_building.png" alt="pic4" width="100" height="100">
+                    <img src="./assets/Blog-post/lofi.png" alt="pic5" width="100" height="100">
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p>Let us be Social</p>
+                <div>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <a href="" target="_black"><i class="fab fa-github"> </i></a>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray">
+                <a href="www.youtube.com/c/dailytuition" target="_black">Daily Tuition <i class="fab fa-youtube"></i>
+                    Channel</a>
+            </h4>
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        </div>
+    </footer>
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
